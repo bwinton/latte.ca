@@ -1,0 +1,197 @@
+body
+{
+    background-color:#ffffff;
+    color:#000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+ 
+a:link
+{
+    color:#0000c4
+}
+
+a:visited
+{
+    color:#000072
+}
+
+a:active
+{
+    color:#bb0004
+}
+
+code
+{
+    display:block;
+    width:90%;
+    margin-left:5%;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 80%;
+    margin-right:5%;
+    background-color:#000000;
+    color:#ff9933;
+    overflow:auto;
+}
+
+img
+{
+    border-style:none;
+}
+
+div.title
+{
+    text-align:right;
+    font-size:150%;
+}
+
+div.media
+{
+    font-size:75%;
+    text-align:right;
+}
+
+span.title
+{
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+span.description
+{
+    font-weight: bold;
+}
+
+div.blosxomFirstDayDiv
+{
+    border-right:solid #3333ff;
+}
+
+div.blosxomDayDiv
+{
+    border-right:solid #3333ff;
+}
+
+div.blosxomDate
+{
+    text-align:right;
+    background-color:#0000cc;
+    color:#ffffff;
+    font-weight:bolder;
+    font-size: 110%;
+}
+
+div.content
+{
+    top:15%;
+    width:100%;
+    padding:5px;
+}
+
+div.blosxomCommentForm
+{
+    text-align: center;
+}
+div.blosxomComments
+{
+    border-top: solid #3333ff 2px;
+}
+div.blosxomComment
+{
+    margin: 5px;
+    padding: 5px;
+}
+
+div.storyTitle
+{
+    font-size: 125%;
+    text-align:right;
+}
+div.storyCategory
+{
+    font-size: 80%;
+}
+div.storyBody
+{
+    text-align:left;
+}
+div.storyFoot
+{
+    text-align:right;
+    font-size: 80%;
+    padding-bottom: 10px
+}
+
+
+div.story
+{
+    margin-bottom:15px;
+}
+
+div.footBox
+{
+    text-align: left;
+    margin-bottom: 15px;
+    border-left:solid #3333ff;
+    padding-left: 3px;
+}
+
+div.footTitle
+{
+    display:inline;
+    position:relative;
+    background-color:#0000cc;
+    color:#ffffff;
+    font-weight:normal;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+div.footer
+{
+    font-size: 70%;
+    text-align:left;
+}
+
+ul.sidebar
+{
+   padding-top:0;
+   padding-bottom:1em;
+   margin-top:0;
+   margin-bottom:1em;
+   padding-left:1em;
+   margin-left:1em
+}
+
+ul.archives
+{
+   margin-left: 0;
+   padding-left: 0;
+   display: inline;
+   border: none;
+}
+
+
+ul.archives li:before
+{
+   content: "- ";
+}
+
+ul.archives li
+{
+   display: inline;
+   margin-left: 0;
+   padding-left: 2px;
+   border: none;
+   list-style: none;
+   display: inline;
+}
+
+a.smallestTag { font-size:10px; }
+a.smallTag    { font-size:12px; }
+a.mediumTag   { font-size:14px; }
+a.bigTag      { font-size:16px; }
+a.biggestTag  { font-size:18px; }
+a.hugeTag     { font-size:20px; }
+a.hugestTag   { font-size:22px; }
+a.mostHugeTag { font-size:24px; }
